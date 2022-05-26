@@ -1,5 +1,6 @@
 <template>
  <div>
+     <Customerprofile />
     <v-app-bar
        absolute
       color="#6A76AB"
@@ -10,18 +11,19 @@
     align="left"
     justify="space-around"
   >
-    <v-btn text @click="value=true">
+    <v-btn text @click="value=1">
       Introducer info
     </v-btn>
-     <v-btn text @click="value1=true, value=false">
+     <v-btn text @click=" value=2">
       address list
     </v-btn>
     </v-row>
     </v-app-bar>
 
    
- <Introducer v-if="value" />
- <Address v-if="value1" />
+ <Introducer v-if="value==1" />
+ <Address v-else-if="value==2" />
+ 
     
 </div>
 </template>
@@ -31,13 +33,14 @@ import { HomeApplication } from "@/../public/configURL";
 import datepicker from 'vue-date-picker'
 import Introducer from "./Introducer.vue";
 import Address from "./Address.vue";
+import Customerprofile from "../../customerprofile/Customer.vue";
 
 export default {
     name: "Customerdetails",
     data() {
         return {
-            value:false,
-            value1:false,
+            value:0,
+           
             collapseOnScroll: true,
             title: "This is customer nft page",
             customername: "",
@@ -71,7 +74,7 @@ export default {
     },
     components: {
     datepicker,
-  
+    Customerprofile,
     Introducer,
     Address
 },
