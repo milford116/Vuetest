@@ -1,0 +1,364 @@
+/***********Added by Salma*****************/
+
+.popup-header {
+    margin-bottom: 0px !important;
+}
+
+.popup-textarea {
+    padding-top: 40px !important;
+}
+
+.row-page-header-margin {
+    margin-top: -8px !important;
+    margin-bottom: 0px !important;
+}
+
+.content-justify-end {
+    justify-content: flex-end !important;
+}
+
+
+/* position: fixed;
+    top: 42px;
+    z-index: 2; */
+
+.v-data-table th,
+tr {
+    text-align: center !important;
+}
+
+.headline-search {
+    margin-top: -32px;
+    background: white;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.headline-dropdown-padding-bottom {
+    padding-bottom: 4px;
+}
+
+.v-text-field {
+    padding-bottom: 4px;
+}
+
+.v-sheet.v-card {
+    border-radius: 4px;
+}
+
+.theme--light.v-card {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.v-card {
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+
+/*********************table style******************/
+
+.background-light-cyan {
+    background-color: #deedf1 !important;
+}
+
+.background-light-pink {
+    background-color: #eededc !important;
+}
+
+.background-light-green {
+    background-color: #c3e9b7 !important;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: rgba(236, 237, 237);
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(250, 250, 250);
+}
+
+.v-data-table-header {
+    background-color: rgba(182, 183, 187);
+    color: white;
+}
+
+.v-data-footer {
+    background-color: rgb(250, 250, 250);
+}
+
+.theme--light.v-data-table thead tr th {
+    /* border: 1px black; */
+    font-size: 13px !important;
+    color: white;
+}
+
+.theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th {
+    text-align: center !important;
+    background-color: rgba(182, 183, 187) !important;
+}
+
+.theme--light.v-data-table>.v-data-table__wrapper>table>tbody>tr>td {
+    text-align: center !important;
+}
+
+
+/* .theme--light.v-data-table>.v-data-table__wrapper>table>tbody>tr>td:first-child {
+    text-align: start !important;
+} */
+
+
+/* .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th:first-child {
+    font-size: medium !important;
+} */
+
+.v-data-table {
+    line-height: 1.0;
+}
+
+.v-data-table>.v-data-table__wrapper>table {
+    white-space: pre;
+}
+
+.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+.v-data-table>.v-data-table__wrapper>table>thead>tr>td,
+.v-data-table>.v-data-table__wrapper>table>tfoot>tr>td {
+    height: 40px !important;
+}
+
+
+/**************************************/
+
+
+/*********************expansion panel****************/
+
+.v-expansion-panel-content__wrap {
+    padding: 0px !important;
+}
+
+.v-expansion-panel>.v-expansion-panel-header {
+    background-color: rgb(5, 75, 117);
+    color: white;
+    min-height: 26px !important;
+    font-weight: normal;
+    font-size: large;
+    padding-top: 6px;
+    padding-right: 24px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+
+
+/********************************/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+
+.v-btn__content {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: inherit;
+    line-height: normal;
+    position: relative;
+    font-style: bold;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+
+.v-btn-search {
+    margin-top: 18px;
+    font-weight: normal !important;
+}
+
+.feather {
+    font-size: 30px !important;
+    color: white !important;
+}
+
+.link {
+    color: #04a9f5 !important;
+}
+
+.v-list-item__title {
+    /* font-size: 16px !important; */
+    color: black !important;
+}
+
+.forStyle {
+    font-size: 16px !important;
+    color: white !important;
+}
+
+.v-input input {
+    color: black !important;
+}
+
+.v-list-item__content:hover {
+    background-color: #909199;
+    color: white !important;
+}
+
+.v-list-item:hover {
+    background-color: #909199;
+    color: white !important;
+}
+
+.pcoded-navbar a {
+    color: white !important;
+}
+
+.v-list .v-list-item--active {
+    color: #350f91 !important;
+}
+
+.v-btn {
+    height: 35px !important;
+}
+
+.v-card .v-card--material__heading {
+    background-color: rgb(5 75 117) !important;
+}
+
+
+/*************new for responsive button******************/
+
+@media only screen and (max-width: 680px) {
+    .v-card .v-card--material__heading {
+        top: -30px;
+        height: 100px !important;
+    }
+    .v-application .text-right {
+        text-align: center !important;
+    }
+    .main-search {
+        display: none;
+    }
+    .v-card .v-card--material__heading .display-2 {
+        font-size: 16px !important;
+    }
+    .v-btn:not(.v-btn--round).v-size--default {
+        height: 38px;
+    }
+    .v-sheet button.v-btn.v-size--default[data-v-14bfdf20]:not(.v-btn--icon):not(.v-btn--fab) {
+        padding: 15px 5px !important;
+    }
+    .v-application .headline {
+        font-size: 16px !important;
+    }
+    .v-btn:not(.v-btn--round).v-size--default {
+        min-width: 60px !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 680px) {
+    .v-card .v-card--material__heading {
+        padding-bottom: 20px !important;
+    }
+    .v-application .text-right {
+        text-align: center !important;
+    }
+    .main-search {
+        display: none;
+    }
+    .v-card .v-card--material__heading .display-2 {
+        font-size: 14px !important;
+        line-height: 2.4em !important;
+        font-weight: bold !important;
+    }
+    .v-btn:not(.v-btn--round).v-size--default {
+        height: 38px;
+    }
+    .v-sheet button.v-btn.v-size--default[data-v-14bfdf20]:not(.v-btn--icon):not(.v-btn--fab) {
+        padding: 15px 5px !important;
+    }
+    .v-application .headline {
+        font-size: 16px !important;
+    }
+    .v-btn:not(.v-btn--round).v-size--default {
+        min-width: 60px !important;
+    }
+    .v-sheet button.v-btn.v-size--default[data-v-9b52fefa]:not(.v-btn--icon):not(.v-btn--fab) {
+        padding: 5px 1px !important;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+    .v-application .display-2 {
+        line-height: 1.2em !important;
+    }
+    .v-sheet button.v-btn.v-size--default[data-v-9b52fefa]:not(.v-btn--icon):not(.v-btn--fab) {
+        padding: 5px 5px !important;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .v-sheet button.v-btn.v-size--default[data-v-14bfdf20]:not(.v-btn--icon):not(.v-btn--fab) {
+        padding: 5px 1px !important;
+    }
+}
+
+.pcoded-main-container {
+    margin-left: 0px !important;
+}
+
+
+/* .menu-styler .style-block {
+    background: #3F4D67;
+} */
+
+.v-list-item__content {
+    font-size: 14px;
+}
+
+
+/*For overriding vee-validate input and label style*/
+
+label.v-label.theme--light.success--text {
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+/* Body width Whole Application Normalization */
+
+body {
+    width: 100%;
+}
+
+
+/* Menu position fixed and color */
+
+.fix-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgb(5 75 117);
+}
+
+
+/* text box extra margin removed for calender*/
+
+.v-application--is-ltr .v-input__append-outer {
+    margin-left: -8%;
+}
+
+.dropdown-item .feather {
+    color: #3f4d67 !important;
+}
+
+.theme--dark.v-toolbar.v-sheet.toolbar-color {
+    background-color: rgb(5 75 117) !important;
+}
+
+.theme--dark.v-tabs>.v-tabs-bar {
+    background-color: rgb(5 75 117) !important;
+}

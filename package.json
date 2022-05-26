@@ -1,0 +1,121 @@
+{
+    "name": "finginex-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
+        "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bootstrap": "^4.5.3",
+        "bootstrap-vue": "^2.21.2",
+        "core-js": "^3.6.5",
+        "jquery": "^3.5.1",
+        "mdbvue": "^6.7.2",
+        "moment": "^2.29.1",
+        "node-sass": "^7.0.1",
+        "number-to-words": "^1.2.4",
+        "perfect-scrollbar": "^1.5.0",
+        "popover": "^2.4.1",
+        "popper.js": "^1.16.1",
+        "v-tooltip": "^3.0.0-alpha.20",
+        "vee-validate": "^3.4.9",
+        "vue": "^2.6.11",
+        "vue-context": "^6.0.0",
+        "vue-cropperjs": "^4.2.0",
+        "vue-date-picker": "^2.5.0",
+        "vue-i18n": "^8.22.2",
+        "vue-json-excel": "^0.3.0",
+        "vue-progressbar": "^0.7.5",
+        "vue-router": "^3.5.1",
+        "vue-simple-alert": "^1.1.1",
+        "vue-zoom-on-hover": "^1.0.5",
+        "vue-zoomer": "^0.3.9",
+        "vue2-circle-progress": "^1.2.3",
+        "vue2-datepicker": "^3.10.4",
+        "vuetify": "^2.3.19",
+        "vuex": "^3.6.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^5.0.4",
+        "@vue/cli-plugin-eslint": "^5.0.4",
+        "@vue/cli-service": "^5.0.4",
+        "@vue/compiler-sfc": "^3.0.4",
+        "babel-eslint": "^10.1.0",
+        "deepmerge": "^4.2.2",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "sass": "^1.30.0",
+        "sass-loader": "^13.0.0",
+        "vue-cli-plugin-vuetify": "^2.0.8",
+        "vue-template-compiler": "^2.6.11",
+        "vuetify-loader": "^1.6.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "dependencies": {
+            "axios": "^0.21.1",
+            "bootstrap": "^4.5.3",
+            "bootstrap-vue": "^2.21.2",
+            "core-js": "^3.6.5",
+            "jquery": "^3.5.1",
+            "mdbvue": "^6.7.2",
+            "node-sass": "^5.0.0",
+            "number-to-words": "^1.2.4",
+            "perfect-scrollbar": "^1.5.0",
+            "popover": "^2.4.1",
+            "popper.js": "^1.16.1",
+            "v-tooltip": "^3.0.0-alpha.20",
+            "vue": "^2.6.11",
+            "vue-context": "^6.0.0",
+            "vue-cropperjs": "^4.2.0",
+            "vue-i18n": "^8.22.2",
+            "vue-json-excel": "^0.3.0",
+            "vue-progressbar": "^0.7.5",
+            "vue-router": "^3.4.9",
+            "vue-simple-alert": "^1.1.1",
+            "vue2-circle-progress": "^1.2.3",
+            "vuetify": "^2.3.19",
+            "vuex": "^3.6.0"
+        },
+        "devDependencies": {
+            "@vue/compiler-sfc": "^3.0.4",
+            "@vue/cli-plugin-babel": "~4.5.0",
+            "@vue/cli-plugin-eslint": "~4.5.0",
+            "@vue/cli-service": "~4.5.0",
+            "babel-eslint": "^10.1.0",
+            "deepmerge": "^4.2.2",
+            "eslint": "^6.7.2",
+            "eslint-plugin-vue": "^6.2.2",
+            "sass": "^1.30.0",
+            "sass-loader": "^10.1.1",
+            "vue-cli-plugin-vuetify": "^2.0.8",
+            "vue-template-compiler": "^2.6.11",
+            "vuetify-loader": "^1.6.0"
+        },
+        "eslintConfig": {
+            "root": true,
+            "env": {
+                "node": true
+            },
+            "extends": [
+                "plugin:vue/essential",
+                "eslint:recommended"
+            ],
+            "parserOptions": {
+                "parser": "babel-eslint"
+            },
+            "rules": {}
+        },
+        "browserslist": [
+            "> 1%",
+            "last 2 versions",
+            "not dead"
+        ]
+    }
+}

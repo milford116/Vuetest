@@ -1,0 +1,184 @@
+var postOptionsData = [{
+    value: 0,
+    text: "Non-Postable",
+  },
+  {
+    value: 1,
+    text: "Postable",
+  },
+];
+
+var accTypeItemsData = [{
+    value: 0,
+    text: "Asset",
+  },
+  {
+    value: 1,
+    text: "Liability",
+  },
+  {
+    value: 2,
+    text: "Expenditure",
+  },
+  {
+    value: 3,
+    text: "Income",
+  },
+];
+
+var currencyItemsData = [{
+    value: 0,
+    text: "All",
+  },
+  {
+    value: 1,
+    text: "Local",
+  },
+  {
+    value: 2,
+    text: "Foreign",
+  },
+];
+
+var formData = {
+  accType: 0,
+  currencyType: 1,
+  postabilityType: 1,
+  searchTypeSelection: "0",
+  startNo: "",
+  endNo: "",
+  AccountName: "",
+
+  glKey: "dummykey",
+  glType: "Asset",
+  glPrefix: "",
+  glAccountNo: "",
+  openingDate: "",
+  accountName: "",
+  currency: "000",
+  level: "--select--",
+  accountType: "Debit",
+  totallingAccount: "",
+  accountPosting: "",
+  totallingAccountName: "",
+  balanceSheetVal: null,
+  glBreakUpRegister: false,
+  ibtaAccount: false,
+};
+
+var headersData = [
+  {
+    text: "GL A/C SL",
+    value: "GL_ACC_SL"
+  },
+  {
+    text: "GL A/C NO",
+    value: "GL_ACC_NO"
+  },
+  {
+    text: "GL A/C NAME",
+    value: "GL_ACC_NM"
+  },
+];
+
+var dessertsData = [{
+    name: "Frozen Yogurt",
+    calories: 159,
+    fat: 6.0,
+    carbs: 24,
+    protein: 4.0,
+  },
+  {
+    name: "Ice cream sandwich",
+    calories: 237,
+    fat: 9.0,
+    carbs: 37,
+    protein: 4.3,
+  },
+  {
+    name: "Eclair",
+    calories: 262,
+    fat: 16.0,
+    carbs: 23,
+    protein: 6.0,
+  },
+  {
+    name: "Cupcake",
+    calories: 305,
+    fat: 3.7,
+    carbs: 67,
+    protein: 4.3,
+  },
+  {
+    name: "Gingerbread",
+    calories: 356,
+    fat: 16.0,
+    carbs: 49,
+    protein: 3.9,
+  },
+  {
+    name: "Jelly bean",
+    calories: 375,
+    fat: 0.0,
+    carbs: 94,
+    protein: 0.0,
+  },
+  {
+    name: "Lollipop",
+    calories: 392,
+    fat: 0.2,
+    carbs: 98,
+    protein: 0,
+  },
+  {
+    name: "Honeycomb",
+    calories: 408,
+    fat: 3.2,
+    carbs: 87,
+    protein: 6.5,
+  },
+  {
+    name: "Donut",
+    calories: 452,
+    fat: 25.0,
+    carbs: 51,
+    protein: 4.9,
+  },
+  {
+    name: "KitKat",
+    calories: 518,
+    fat: 26.0,
+    carbs: 65,
+    protein: 7,
+  },
+];
+
+var masterAccRequestBodyData = {
+  port: 44343,
+  path: "/CorGlLedger/GetCorGLMasterAccountList",
+  method: "GET",
+  data: {
+    "BusinessData": {
+      "Name_Value_List": "",
+      "GL_BRANCH_ID": "0031",
+      "CurrencyType": "",
+      "Gl_CURRENCY_ID": "",
+      "POSTABLE": "",
+      "OFF_BS_FLAG": "",
+      "RangeType": "",
+      "StartAcc": "",
+      "EndAcc": "",
+      "GLACC_NM": ""
+    }
+  }
+};
+
+export {
+  postOptionsData,
+  accTypeItemsData,
+  currencyItemsData,
+  formData,
+  headersData,
+  dessertsData,
+  masterAccRequestBodyData
+};
